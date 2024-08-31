@@ -1,6 +1,7 @@
 {
     "userspace_version": "1.1",
     "build_targets": [
-        ["massdrop/ctrl", "blakerandall"]
+        ["massdrop/ctrl", "blakerandall"],
+        ["massdrop/ctrl", "blakerandall_via"]
     ]
 }
