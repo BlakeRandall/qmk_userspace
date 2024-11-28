@@ -1,6 +1,13 @@
 name: Build QMK firmware
 
-on: [push, workflow_dispatch]
+on:
+    push:
+        paths:
+            - 'keyboards/*'
+            - 'layouts/*'
+            - 'users/*'
+            - 'qmk.json'
+    workflow_dispatch:
 
 permissions:
   contents: write
